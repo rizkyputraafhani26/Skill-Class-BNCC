@@ -104,9 +104,9 @@ logicLens/
 
 Feel free to connect with me on professional platforms:
 
-- **GitHub:** [@LukasMystic](https://github.com/LukasMystic)
-- **LinkedIn:** [Stanley Pratama Teguh](https://linkedin.com/in/stanley-pratama-teguh)
-- **Email:** [Your Email]
+- **GitHub:** [@rizkyputraafhani26](https://https://github.com/rizkyputraafhani26)
+- **LinkedIn:** [Rizky Putra Afhani](https://www.linkedin.com/in/rizkyputraafhani/)
+- **Email:** [putraafhani26@gmail.com]
 
 I'm always open to discussing web development, design systems, and creative projects. Let's build something great together!
 
