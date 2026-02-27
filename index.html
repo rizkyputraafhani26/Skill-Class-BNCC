@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Rizky Putra Afhani, showcasing programming, UI design, and photo editing projects.">
+    <title>Rizky Putra Afhani | CS Student & Developer</title>
+
+    <!-- FontAwesome/Icon CDN Placeholder -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- External Stylesheet Link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- External Script with defer attribute -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- ================= HEADER SECTION ================= -->
+    <header class="header">
+        <nav class="nav" aria-label="Main Navigation">
+            <a href="#home" class="nav__logo">Portfolio.</a>
+            
+            <ul class="nav__menu" role="menubar">
+                <li class="nav__item" role="none">
+                    <a href="#home" class="nav__link" role="menuitem">Home</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#about" class="nav__link" role="menuitem">About</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#projects" class="nav__link" role="menuitem">Projects</a>
+                </li>
+                <li class="nav__item" role="none">
+                    <a href="#contact" class="nav__link" role="menuitem">Contact</a>
+                </li>
+            </ul>
+
+            <div class="nav__controls">
+                <!-- Theme Toggle -->
+                <button id="theme-toggle" class="btn-theme-toggle" aria-label="Toggle dark and light mode">
+                    <!-- Icon placeholder -->
+                    <i class="fa-solid fa-moon" aria-hidden="true"></i>
+                </button>
+
+                <!-- Mobile Hamburger Menu -->
+                <button class="hamburger" aria-label="Open mobile menu" aria-expanded="false" aria-controls="primary-menu">
+                    <span class="hamburger__line" aria-hidden="true"></span>
+                    <span class="hamburger__line" aria-hidden="true"></span>
+                    <span class="hamburger__line" aria-hidden="true"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ================= MAIN CONTENT ================= -->
+    <main>
+
+        <!-- --- HERO SECTION --- -->
+        <section id="home" class="hero">
+            <div class="hero__container">
+                <h1 class="hero__title">Crafting Code. Designing Experiences.</h1>
+                <p class="hero__subtitle">Hi, I'm Rizky Putra Afhani—a Computer Science student blending robust programming logic with a passion for UI design and photo editing.</p>
+                <a href="#projects" class="btn-primary hero__cta">View My Work</a>
+            </div>
+        </section>
+
+        <!-- --- ABOUT SECTION --- -->
+        <section id="about" class="about">
+            <div class="about__container">
+                
+                <!-- Column 1: Image -->
+                <div class="about__column about__column--image">
+                    <figure class="about__figure">
+                        <img src="D:\BINUS\BNCC\Skill Class\assets\putra0.jpeg" alt="Portrait of Rizky Putra Afhani" width="400" height="400" class="about__img" loading="lazy">
+                        <figcaption class="about__figcaption">Rizky Putra Afhani, CS Student</figcaption>
+                    </figure>
+                </div>
+
+                <!-- Column 2: Text Content -->
+                <div class="about__column about__column--text">
+                    <h3 class="about__title">About Me</h3>
+                    <p class="about__description">
+                        As a Computer Science student, I specialize in building solid structural foundations through programming and algorithmic logic. However, my passions don't stop at the terminal—I am equally devoted to UI design and photo editing.
+                    </p>
+                    <p class="about__description">
+                        This unique blend allows me to translate complex backend logic into intuitive, visually striking user experiences. Whether I'm debugging complex code or color-grading a photograph, my workflow centers on solving technical problems to deliver polished and highly functional results.
+                    </p>
+                    <a href="D:\BINUS\BNCC\Skill Class\assets\CV_GDGOC_RizkyPutraAfhani_2902702605.pdf"class="btn-secondary about__btn" download>Download Resume</a>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- --- PROJECTS SECTION --- -->
+        <section id="projects" class="projects">
+            <div class="projects__container">
+                <h3 class="projects__title">Featured Projects</h3>
+                
+                <div class="projects-grid">
+                    
+                    <!-- Project Card 1 -->
+                    <article class="project-card">
+                        <div class="project-card__img-wrapper">
+                            <img src="D:\File Personal Putra\Hasil_Figma\DB BJB.jpg" alt="Dashboard interface showing analytics for Project One" class="project-card__img" loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <h4 class="project-card__title">DB Coffee Mobile App</h4>
+                            <p class="project-card__description">A comprehensive UI/UX design for a modern coffee shop mobile application. Created entirely in Figma, this project focuses on delivering an intuitive user journey from menu browsing to checkout, featuring a sleek dark-mode aesthetic to enhance visual appeal and user engagement.</p>
+                            <ul class="project-card__tech" aria-label="Technologies used">
+                                <li class="project-card__tech-tag">UI/UX</li>
+                                <li class="project-card__tech-tag">Cafe</li>
+                                <li class="project-card__tech-tag">Figma</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://github.com/..." class="btn-link project-card__link" target="_blank" rel="noopener noreferrer">View Figma <span class="sr-only">for DB Coffee Mobile App</span></a>
+                                <a href="https://live-demo.com/..." class="btn-link project-card__link" target="_blank" rel="noopener noreferrer">Live Design <span class="sr-only">for DB Coffee Mobile App</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 2 -->
+                    <article class="project-card">
+                        <div class="project-card__img-wrapper">
+    <video class="project-card__img" autoplay loop muted playsinline>
+        <source src="D:\BINUS\BNCC\QuestTS2026_RizkyPutraAfhani\TechRise_1.mp4" type="video/mp4">
+        Maaf, browser Anda tidak mendukung pemutaran video ini.
+    </video>
+</div>
+                        <div class="project-card__content">
+                            <h4 class="project-card__title">Motion Graphic Tech Rise BNCC</h4>
+                            <p class="project-card__description">Engaging promotional motion graphics created for the Bina Nusantara Computer Club (BNCC) "TECHRISE" event. Utilizing Adobe After Effects, I designed dynamic visual assets featuring custom glow animations and smooth transitions to effectively communicate the event's tech-forward theme.</p>
+                            <ul class="project-card__tech" aria-label="Technologies used">
+                                <li class="project-card__tech-tag">After Effect</li>
+                                <li class="project-card__tech-tag">Editing</li>
+                                <li class="project-card__tech-tag">Motion Graphic</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://github.com/..." class="btn-link project-card__link" target="_blank" rel="noopener noreferrer">View Video <span class="sr-only">for Motion Graphic Tech Rise BNCC</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project Card 3 -->
+                    <article class="project-card">
+                        <div class="project-card__img-wrapper">
+                            <img src="D:\width_1366.jpg" alt="Landing page design for Project Three" class="project-card__img" loading="lazy">
+                        </div>
+                        <div class="project-card__content">
+                            <h4 class="project-card__title">Internet of Things</h4>
+                            <p class="project-card__description">Developed a smart automated fan system powered by a NodeMCU microcontroller. This Internet of Things (IoT) project integrates temperature and humidity sensors with the Blynk mobile app, enabling real-time remote monitoring and automated climate control.</p>
+                            <ul class="project-card__tech" aria-label="Technologies used">
+                                <li class="project-card__tech-tag">HTML/CSS</li>
+                                <li class="project-card__tech-tag">UI Design</li>
+                                <li class="project-card__tech-tag">Photo Editing</li>
+                            </ul>
+                            <div class="project-card__links">
+                                <a href="https://github.com/..." class="btn-link project-card__link" target="_blank" rel="noopener noreferrer">View Code <span class="sr-only">for Visuals & Photography Blog</span></a>
+                                <a href="https://live-demo.com/..." class="btn-link project-card__link" target="_blank" rel="noopener noreferrer">Live Demo <span class="sr-only">for Visuals & Photography Blog</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- --- CONTACT SECTION --- -->
+        <section id="contact" class="contact">
+            <div class="contact__container">
+                <h3 class="contact__title">Get In Touch</h3>
+                
+                <form class="contact__form" action="your-form-handler-url" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-group__label">Name</label>
+                        <input type="text" id="name" name="name" class="form-group__input" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email" class="form-group__label">Email</label>
+                        <input type="email" id="email" name="email" class="form-group__input" required aria-required="true">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message" class="form-group__label">Message</label>
+                        <textarea id="message" name="message" class="form-group__textarea" rows="5" required aria-required="true"></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn-primary contact__submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ================= FOOTER SECTION ================= -->
+    <footer class="footer">
+        <div class="footer__container">
+            
+            <!-- Social Media Links -->
+            <ul class="footer__socials" aria-label="Social media profiles">
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link" aria-label="Link to GitHub" target="_blank" rel="noopener noreferrer">
+                        <i class="icon-github" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link" aria-label="Link to LinkedIn" target="_blank" rel="noopener noreferrer">
+                        <i class="icon-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="footer__social-item">
+                    <a href="#" class="footer__social-link" aria-label="Link to Twitter" target="_blank" rel="noopener noreferrer">
+                        <i class="icon-twitter" aria-hidden="true"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- Copyright Information -->
+            <p class="footer__copyright">&copy; 2026 Rizky Putra Afhani. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
