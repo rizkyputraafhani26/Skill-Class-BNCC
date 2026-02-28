@@ -509,6 +509,7 @@ body.light-theme {
     --text-secondary: #475569;  /* Teks sekunder agak abu-abu gelap */
     --card-bg: #ffffff;         /* Background card menjadi putih */
     /* accent-color tetap sama agar konsisten */
+      --section-alt-bg: #f1f5f9;
 }
 
 /* Memastikan warna hamburger menu menyesuaikan tema */
@@ -524,4 +525,5 @@ body.light-theme .header.scrolled {
     background-color: rgba(255, 255, 255, 0.95); /* Warna putih solid saat di-scroll */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05); /* Bayangan sangat halus */
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
 }
