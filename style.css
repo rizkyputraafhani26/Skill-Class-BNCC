@@ -10,9 +10,9 @@
     --text-primary: #f1f5f9;    /* Slate 100 */
     --text-secondary: #94a3b8;  /* Slate 400 */
     --accent-color: #8b5cf6;    /* Violet 500 */
-    --accent-hover: #7c3aed;    /* Violet 600 */
-    --card-bg: #1e293b;         /* Slate 800 */
-    
+    --accent-hover: #7c3aed;    /* Violet 600 */     /* Slate 800 */
+    --card-bg: #1e293b;
+    --section-alt-bg: rgba(30, 41, 59, 0.3);
     /* Layout */
     --max-width: 1200px;
     --section-padding: 5rem 5%;
@@ -287,8 +287,8 @@ a {
 
 /* --- Projects Section --- */
 .projects {
-    padding: var(--section-padding);
-    background-color: rgba(30, 41, 59, 0.3); /* Slight contrast background */
+   padding: var(--section-padding);
+    background-color: var(--section-alt-bg);/* Slight contrast background */
 }
 
 .projects__container {
@@ -509,6 +509,7 @@ body.light-theme {
     --text-secondary: #475569;  /* Teks sekunder agak abu-abu gelap */
     --card-bg: #ffffff;         /* Background card menjadi putih */
     /* accent-color tetap sama agar konsisten */
+   --section-alt-bg: #f1f5f9;
 
 }
 
@@ -527,4 +528,5 @@ body.light-theme .header.scrolled {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 
 }
+
 
